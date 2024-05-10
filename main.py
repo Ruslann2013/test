@@ -14,9 +14,9 @@ while True:
         ans = b + c
         user = input(f'{b} + {c} =')
     if str(ans) == user:
-        a['player'] += 1
+        a['player'] += 2
         print('Всё правильно.')
     else:
-        a['computer'] += 1
+        a['computer'] += 2
         print('Не все верно. Ты где-то ошибся')
     print(f'{a["computer"]}: {a["player"]}: ')
