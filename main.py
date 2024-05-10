@@ -4,8 +4,8 @@ a = {
     'computer':0
 }
 while True:
-    b = random.randint(10, 90)
-    c = random.randint(10, 90)
+    b = random.randint(10, 100)
+    c = random.randint(10, 100)
     op = random.choice(('+', '-'))
     if op =='+':
         ans = b + c
