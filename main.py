@@ -15,7 +15,7 @@ while True:
         user = input(f'{b} - {c} =')
     if str(ans) == user:
         a['player'] += 1
-        print('Всё верно')
+        print('Всё правильно.')
     else:
         a['computer'] += 1
         print('Не все верно. Ты где-то ошибся')
