@@ -7,12 +7,12 @@ while True:
     b = random.randint(10, 100)
     c = random.randint(10, 100)
     op = random.choice(('+', '-'))
-    if op =='+':
-        ans = b + c
-        user = input(f'{b} + {c} =')
-    else:
+    if op =='-':
         ans = b - c
         user = input(f'{b} - {c} =')
+    else:
+        ans = b + c
+        user = input(f'{b} + {c} =')
     if str(ans) == user:
         a['player'] += 1
         print('Всё правильно.')
