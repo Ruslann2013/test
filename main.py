@@ -18,5 +18,5 @@ while True:
         print('Всё верно')
     else:
         a['computer'] += 1
-        print('Не все верноxrj. Ты где-то ошибся')
+        print('Не все верно. Ты где-то ошибся')
     print(f'{a["computer"]}: {a["player"]}: ')
