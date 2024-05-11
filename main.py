@@ -1,13 +1,13 @@
 import random
 a = {
-    'player':0,
-    'computer':0
+    'player': 0,
+    'computer': 0
 }
 while True:
-    b = random.randint(10, 100)
-    c = random.randint(10, 100)
+    b = random.randint(10, 120)
+    c = random.randint(10, 120)
     op = random.choice(('+', '-'))
-    if op =='-':
+    if op == '-':
         ans = b - c
         user = input(f'{b} - {c} =')
     else:
